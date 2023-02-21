@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class IdeaStudy1 extends  IdeaStudy1Father {
+    /**
+     *
+     */
     private int age;
 
     public IdeaStudy1(int age) {
