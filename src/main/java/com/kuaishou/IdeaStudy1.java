@@ -45,7 +45,7 @@ public class IdeaStudy1 extends  IdeaStudy1Father {
 //                .forEach(System.out::println);
 
         Thread t = new Thread(() -> {
-            System.out.println();
+            System.out.println(123);
         });
     }
 
@@ -81,7 +81,7 @@ public class IdeaStudy1 extends  IdeaStudy1Father {
     private static void f3() {
         try {
             System.out.println("f3...");
-            Thread.sleep(5000);
+            Thread.sleep(6000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
