@@ -5,13 +5,27 @@
   <groupId>com.kuaishou</groupId>
   <artifactId>IdeaStudy</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <modules>
+    <module>IdeaStudySubModule_1</module>
+    <module>IdeaStudySubModule_2</module>
+  </modules>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>3.8.1</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+  <packaging>pom</packaging>
 
   <name>IdeaStudy</name>
   <url>http://maven.apache.org</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <spring.version>5.1.10.RELEASE</spring.version>
   </properties>
 
   <dependencies>
@@ -21,5 +35,30 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-web</artifactId>
+      <version>2.3.1.RELEASE</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-web</artifactId>
+      <version>5.1.10-kwai-12</version>
+    </dependency>
+
   </dependencies>
+
+  <profiles>
+    <profile>
+      <id>dev</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
+      <dependencies></dependencies>
+    </profile>
+    <profile>
+      <id>prod</id>
+      <dependencies></dependencies>
+    </profile>
+  </profiles>
 </project>
