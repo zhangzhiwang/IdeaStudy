@@ -10,4 +10,6 @@ public class App {
         System.out.println(1);
         System.out.println(2);
     }
+
+    private void m1() {}
 }
