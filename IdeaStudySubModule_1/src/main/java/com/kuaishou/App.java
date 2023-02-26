@@ -7,6 +7,8 @@ public class App {
     public static void main(String[] args) {
         System.out.println(6);
         System.out.println(6);
+        // bugfix:123
+        System.out.println(123);
     }
 
     private void m2() {
