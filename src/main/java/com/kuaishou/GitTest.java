@@ -5,6 +5,7 @@ public class GitTest {
 
     public void m1(String s1, String s2, String s3) {
         System.out.println("s1");
+        System.out.println("s2");
     }
 
     public void m2(int ii, int i2, int i3) {
