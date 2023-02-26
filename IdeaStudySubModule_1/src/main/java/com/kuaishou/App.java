@@ -10,5 +10,7 @@ public class App {
     }
 
     private void m2() {}
-    private void m1(String s) {}
+    private void m1(String s) {
+        System.out.println(s);
+    }
 }
