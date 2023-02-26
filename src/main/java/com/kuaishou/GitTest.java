@@ -1,11 +1,11 @@
 package com.kuaishou;
 
 public class GitTest {
-    private int i = 40;
+    private int i = 52;
 
-    public void m1() {}
+    public void m1(String s) {}
 
-    public void m2() {}
+    public void m2(int ii) {}
 
-    public void m3() {}
+    public void m3(boolean b) {}
 }
