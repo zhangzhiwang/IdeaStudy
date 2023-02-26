@@ -8,6 +8,7 @@ public class GitTest {
         System.out.println("s2");
         System.out.println("s3");
         System.out.println("s4");
+        System.out.println("s5");
     }
 
     public void m2(int ii, int i2, int i3) {
