@@ -7,5 +7,5 @@ public class GitTest {
 
     public void m2(int i) {}
 
-    public void m3() {}
+    public void m3(boolean b) {}
 }
