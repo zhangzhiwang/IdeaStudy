@@ -8,6 +8,6 @@ public class App {
         System.out.println(6);
     }
 
-    private void m1(String s) {}
     private void m2() {}
+    private void m1(String s) {}
 }
