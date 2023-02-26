@@ -5,7 +5,7 @@ package com.kuaishou;
  */
 public class App {
     public static void main(String[] args) {
-        System.out.println(2);
+        System.out.println(3);
     }
 
     private void m1(String s) {}
