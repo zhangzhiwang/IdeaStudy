@@ -1,7 +1,7 @@
 package com.kuaishou;
 
 public class GitTest {
-    private int i = 51;
+    private int i = 50;
 
     public void m1(String s) {}
 
