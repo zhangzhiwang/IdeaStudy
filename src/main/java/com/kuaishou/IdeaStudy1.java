@@ -50,6 +50,7 @@ public class IdeaStudy1 extends  IdeaStudy1Father {
 //        Thread t = new Thread(() -> {
 //            System.out.println(123);
 //        });
+        int x = 0;
     }
 
     public static int f1(String s) {
