@@ -47,9 +47,9 @@ public class IdeaStudy1 extends  IdeaStudy1Father {
 //                .filter(s -> s.contains("a"))
 //                .forEach(System.out::println);
 
-        Thread t = new Thread(() -> {
-            System.out.println(123);
-        });
+//        Thread t = new Thread(() -> {
+//            System.out.println(123);
+//        });
     }
 
     public static int f1(String s) {
