@@ -9,6 +9,7 @@ public class GitTest {
         System.out.println("s3");
         System.out.println("s4");
         System.out.println("s5");
+        System.out.println("s6");
     }
 
     public void m2(int ii, int i2, int i3) {
