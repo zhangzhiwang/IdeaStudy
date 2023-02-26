@@ -1,6 +1,6 @@
 package com.kuaishou;
 
 public class MyException extends Exception {
-    private int i = 1;
+    private int i = 3;
     private String s;
 }
