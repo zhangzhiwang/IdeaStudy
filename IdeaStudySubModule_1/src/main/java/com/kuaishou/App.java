@@ -8,7 +8,7 @@ public class App {
         System.out.println(6);
         System.out.println(6);
         // bugfix:123
-        System.out.println(123);
+        System.out.println(1235);
     }
 
     private void m2() {
