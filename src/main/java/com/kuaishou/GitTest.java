@@ -5,7 +5,7 @@ public class GitTest {
 
     public void m1(String s) {}
 
-    public void m2(int i) {}
+    public void m2(int ii) {}
 
     public void m3(boolean b) {}
 }
