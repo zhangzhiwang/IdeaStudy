@@ -9,7 +9,9 @@ public class App {
         System.out.println(6);
     }
 
-    private void m2() {}
+    private void m2() {
+        System.out.println("m2");
+    }
     private void m1(String s) {
         System.out.println(s);
     }
