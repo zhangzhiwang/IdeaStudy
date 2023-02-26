@@ -8,6 +8,7 @@ public class GitTest {
     public void m2(int ii, int i2, int i3) {
         System.out.println(1);
         System.out.println(2);
+        System.out.println(3);
     }
 
     public void m3(boolean b, boolean b2, boolean b3) {}
