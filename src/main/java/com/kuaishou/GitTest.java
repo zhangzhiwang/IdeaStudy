@@ -11,5 +11,7 @@ public class GitTest {
         System.out.println(3);
     }
 
-    public void m3(boolean b, boolean b2, boolean b3) {}
+    public void m3(boolean b, boolean b2, boolean b3) {
+        System.out.println("z1");
+    }
 }
