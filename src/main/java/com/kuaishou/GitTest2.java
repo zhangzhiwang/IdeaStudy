@@ -8,4 +8,5 @@ public class GitTest2 {
     private int i;
 
     private void m1() {}
+    private void m2() {}
 }
