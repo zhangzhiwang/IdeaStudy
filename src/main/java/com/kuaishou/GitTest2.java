@@ -11,7 +11,7 @@ public class GitTest2 {
 
     }
 
-    public void m2(int ii, int i2) {
+    public void m2(int ii, int i2, short s) {
 
     }
 
