@@ -5,7 +5,7 @@ package com.kuaishou;
  * @Date 2023/2/27 21:30
  */
 public class GitTest2 {
-    private int i;
+    private int i = 2;
 
     private void m1() {}
     private void m2() {}
