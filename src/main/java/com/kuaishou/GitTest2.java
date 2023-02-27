@@ -5,7 +5,7 @@ package com.kuaishou;
  * @Date 2023/2/27 21:30
  */
 public class GitTest2 {
-    private int i = 2;
+    private int i = 100;
 
     public void m1(String s1, String s2, String s3) {
         System.out.println("master m1 1");
