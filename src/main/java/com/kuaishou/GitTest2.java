@@ -12,7 +12,7 @@ public class GitTest2 {
     }
 
     public void m2(int ii, int i2, int i3) {
-
+        System.out.println("master m2 1");
     }
 
     public void m3(boolean b, boolean b2, boolean b3) {
