@@ -5,7 +5,7 @@ package com.kuaishou;
  * @Date 2023/2/27 21:30
  */
 public class GitTest2 {
-    private int i = 200;
+    private int i = 400;
 
     public void m1(String s1, String s2, String s3) {
 
