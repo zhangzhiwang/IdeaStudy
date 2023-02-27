@@ -6,4 +6,6 @@ package com.kuaishou;
  */
 public class GitTest2 {
     private int i;
+
+    private void m1() {}
 }
