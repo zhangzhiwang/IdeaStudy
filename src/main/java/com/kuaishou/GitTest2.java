@@ -6,6 +6,17 @@ package com.kuaishou;
  */
 public class GitTest2 {
     private int i = 2;
+
+    public void m1(String s1, String s2, String s3) {
+
+    }
+
+    public void m2(int ii, int i2, int i3) {
+
+    }
+
+    public void m3(boolean b, boolean b2, boolean b3) {
+
+    }
 }
 
-class GitTest2Son {}
