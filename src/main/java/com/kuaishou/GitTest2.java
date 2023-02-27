@@ -7,7 +7,7 @@ package com.kuaishou;
 public class GitTest2 {
     private int i = 400;
 
-    public void m1(String s1, String s2, String s3) {
+    public void m1(String s1, String s2) {
 
     }
 
