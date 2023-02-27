@@ -20,3 +20,6 @@ public class GitTest2 {
     }
 }
 
+class GitTest2Son {
+    private int age;
+}
